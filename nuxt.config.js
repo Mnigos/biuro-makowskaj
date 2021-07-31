@@ -27,8 +27,14 @@ export default {
     '@nuxtjs/stylelint-module',
     '@nuxtjs/vuetify',
     '@nuxtjs/fontawesome',
+    '@nuxtjs/content',
   ],
-  modules: ['@nuxtjs/axios', '@nuxtjs/pwa', '@nuxtjs/fontawesome'],
+  modules: [
+    '@nuxtjs/axios',
+    '@nuxtjs/pwa',
+    '@nuxtjs/fontawesome',
+    '@nuxt/content',
+  ],
   fontawesome: {
     component: 'fa',
     icons: {
