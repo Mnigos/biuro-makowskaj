@@ -27,7 +27,7 @@ export default {
     '@nuxtjs/stylelint-module',
     '@nuxtjs/vuetify',
     '@nuxtjs/fontawesome',
-    '@nuxtjs/content',
+    '@nuxt/content',
   ],
   modules: [
     '@nuxtjs/axios',
